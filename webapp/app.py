@@ -111,7 +111,6 @@ if __name__ == "__main__":
     parser.add_argument("--color", required=False)
     args = parser.parse_args()
 
-    global COLOR
     if args.color:
         COLOR = args.color
     elif COLOR_FROM_ENV:
